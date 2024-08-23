@@ -1,3 +1,11 @@
+> [!NOTE]
+> This is a forked repository for https://github.com/lusingander/vhs.
+> 
+> See the following commit for details:
+> - https://github.com/lusingander/ttyd/commit/a20d29f424808ebf3b2f18b9407e672e133a530f
+
+----
+
 ![backend](https://github.com/tsl0922/ttyd/workflows/backend/badge.svg)
 ![frontend](https://github.com/tsl0922/ttyd/workflows/frontend/badge.svg)
 [![GitHub Releases](https://img.shields.io/github/downloads/tsl0922/ttyd/total)](https://github.com/tsl0922/ttyd/releases)
