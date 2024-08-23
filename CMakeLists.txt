@@ -16,6 +16,8 @@ if(NOT "${GIT_COMMIT}" STREQUAL "")
     set(TTYD_VERSION "${TTYD_VERSION}-${GIT_COMMIT}")
 endif()
 
+set(TTYD_VERSION "${TTYD_VERSION} (Forked: https://github.com/lusingander/ttyd)")
+
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_GNU_SOURCE")
 if(CMAKE_VERSION VERSION_LESS "3.1")
     if ("${CMAKE_C_COMPILER_ID}" STREQUAL "GNU")
